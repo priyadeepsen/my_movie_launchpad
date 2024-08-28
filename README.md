@@ -1,38 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Movie Launchpad</title>
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 20px;
-		}
-		.header {
-			background-color: #f0f0f0;
-			padding: 20px;
-			text-align: center;
-		}
-		.icon {
-			font-size: 24px;
-			margin: 10px;
-		}
-		.table-of-contents {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-		}
-		.table-of-contents li {
-			margin-bottom: 10px;
-		}
-		.table-of-contents a {
-			text-decoration: none;
-			color: #337ab7;
-		}
-		.table-of-contents a:hover {
-			color: #23527c;
-		}
-	</style>
+	
 </head>
 <body>
 	<div class="header">
