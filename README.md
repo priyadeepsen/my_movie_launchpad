@@ -9,12 +9,7 @@
         font-family: Arial, sans-serif;
         margin: 20px;
       }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
+      h1, h2, h3, h4, h5, h6 {
         color: #333;
         margin-bottom: 10px;
       }
@@ -33,9 +28,6 @@
         vertical-align: middle;
         margin-right: 5px;
       }
-      .project-overview {
-        margin-bottom: 20px;
-      }
       .features {
         list-style: none;
         padding: 0;
@@ -50,9 +42,6 @@
         color: #4caf50;
         margin-right: 10px;
       }
-      .getting-started {
-        margin-bottom: 20px;
-      }
       .getting-started ol {
         list-style: decimal;
         padding: 0;
@@ -61,26 +50,12 @@
       .getting-started ol li {
         margin-bottom: 10px;
       }
-      .api-documentation {
-        margin-bottom: 20px;
-      }
-      .contributing {
-        margin-bottom: 20px;
-      }
-      .license {
-        margin-bottom: 20px;
-      }
     </style>
   </head>
   <body>
     <h1>
       Movie Launchpad
-      <img
-        src="https://reactjs.org/logo-og.png"
-        alt="React Logo"
-        width="20"
-        height="20"
-      />
+      <img src="https://reactjs.org/logo-og.png" alt="React Logo" width="20" height="20" />
     </h1>
     <p>A React-based movie search application built with Vite and OMDB API</p>
     <h2>Tech Stack:</h2>
@@ -89,19 +64,17 @@
         <img src="https://reactjs.org/logo-og.png" alt="React Logo" /> React
       </li>
       <li>
-        <img src="https://vitejs.dev/logo-with-shadow.png" alt="Vite Logo" />
-        Vite
+        <img src="https://vitejs.dev/logo-with-shadow.png" alt="Vite Logo" /> Vite
       </li>
       <li>
-        <img src="https://omdbapi.com/favicon.ico" alt="OMDB API Logo" /> OMDB
-        API
+        <img src="https://omdbapi.com/favicon.ico" alt="OMDB API Logo" /> OMDB API
       </li>
       <li>
         <img src="https://eslint.org/favicon.ico" alt="ESLint Logo" /> ESLint
       </li>
     </ul>
     <h2>Project Overview:</h2>
-    <div class="project-overview">
+    <div>
       <p>
         Movie Launchpad is a simple movie search application that allows users
         to search for movies using the OMDB API. The application is built using
@@ -119,23 +92,16 @@
     <div class="getting-started">
       <ol>
         <li>
-          Clone the repository:
-          <code
-            >git clone
-            https://github.com/your-username/movie-launchpad.git</code
-          >
+          Clone the repository: <code>git clone https://github.com/your-username/movie-launchpad.git</code>
         </li>
         <li>
-          Install dependencies: <code>npm install</code> or
-          <code>yarn install</code>
+          Install dependencies: <code>npm install</code> or <code>yarn install</code>
         </li>
         <li>
-          Start the development server: <code>npm run dev</code> or
-          <code>yarn dev</code>
+          Start the development server: <code>npm run dev</code> or <code>yarn dev</code>
         </li>
         <li>
-          Open the application in your web browser:
-          <code>http://localhost:3000</code>
+          Open the application in your web browser: <code>http://localhost:3000</code>
         </li>
       </ol>
     </div>
