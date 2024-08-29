@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import searchIcon from "./search.svg";
 import MovieCard from "./moviecard";
@@ -30,14 +30,24 @@ function App() {
         <input
           placeholder="search for movies"
           value={searchTerm}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              searchMovies(searchTerm);
+            }
+          }}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <img src={searchIcon} alt="search" onClick={() => searchMovies(searchTerm)} />
+        <img
+          src={searchIcon}
+          alt="search"
+          onClick={() => searchMovies(searchTerm)}
+        />
       </div>
 
       {movies?.length > 0 ? (
         <div className="container">
           {movies.map((movie) => (
+            // eslint-disable-next-line react/jsx-key
             <MovieCard movie={movie} />
           ))}
         </div>
